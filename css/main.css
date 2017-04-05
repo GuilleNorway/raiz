@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Museo 700';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo 700'), url('Museo700-Regular.woff') format('woff');
+}
+
+.red-border{
+    border: 1px solid red;   
+}
+
+body.homepage{    
+    background-image: url('../img/home-background.jpg');
+    background-attachment: fixed;
+    background-size: 1710px 840px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.homepage .container-full{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.homepage .homepage-margin{
+    margin-top: 180px;
+}
+
+#logo-row-background{    
+    background: rgba(255, 255, 255, 0.7);
+}
+
+#logo-cell{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+#logo{
+    background-image: url('../img/Logo.png');
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 130px;
+}
+
+#subtitle-row{
+    margin-top: 8px;
+    padding-top: 15px;
+    background: rgba(245, 134, 52, 0.7);
+    color: white;
+    height: 60px;
+}
+
+.title-font{
+    font-family: 'Museo 700';
+    font-size: 25px;
+}
+
+.feature-list{      
+    margin-top: 35px;  
+    font-family: 'Museo 700';
+    font-size: 25px;
+    color: white;
+    list-style-position: inside;
+}
+
+.each-feature{    
+
+}
+
+#feature-calc{    
+    list-style-image: url("../img/icons/cotizador.png");
+}
+
+#feature-provider{    
+    list-style-image: url("../img/icons/proveedor 1.png");
+}
+
+#feature-performance{    
+    list-style-image: url("../img/icons/crece.png");
+}
+
+#feature-traking{    
+    list-style-image: url("../img/icons/envio 1.png");
+}
+
+#feature-free{    
+    list-style-image: url("../img/icons/gratis.png");
+}
+
+.footer{
+    padding-top: 15px;
+    padding-left: 110px;
+    padding-right: 300px;
+}
+
+.footer-font{
+    font-family: 'Museo 700';
+    font-size: 20px;
+}
